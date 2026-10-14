@@ -1,0 +1,7 @@
+{
+    "image_size": [224, 224],
+    "model_type": "efficientnet_b0",
+    "channels": 3,
+    "color_mode": "RGB",
+    "num_classes": 29
+}

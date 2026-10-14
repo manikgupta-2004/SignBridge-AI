@@ -1,0 +1,39 @@
+{
+    "model_name": "signbridge_efficientnet.keras",
+    "model_size_mb": 24.0,
+    "mean_latency_ms": 44.1,
+    "p95_latency_ms": 50.29,
+    "fps": 22.7,
+    "eval_samples": 602,
+    "accuracy": 0.8106,
+    "macro_f1": 0.5341,
+    "macro_precision": 0.6046,
+    "macro_recall": 0.5323,
+    "top_confused_pairs": [
+        {
+            "true": "T",
+            "predicted": "O",
+            "count": 20
+        },
+        {
+            "true": "Z",
+            "predicted": "S",
+            "count": 20
+        },
+        {
+            "true": "U",
+            "predicted": "R",
+            "count": 18
+        },
+        {
+            "true": "nothing",
+            "predicted": "G",
+            "count": 11
+        },
+        {
+            "true": "W",
+            "predicted": "K",
+            "count": 9
+        }
+    ]
+}
